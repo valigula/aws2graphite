@@ -1,0 +1,28 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    aws-sdk (2.0.47)
+      aws-sdk-resources (= 2.0.47)
+    aws-sdk-core (2.0.47)
+      builder (~> 3.0)
+      jmespath (~> 1.0)
+      multi_json (~> 1.0)
+    aws-sdk-resources (2.0.47)
+      aws-sdk-core (= 2.0.47)
+    builder (3.2.2)
+    copperegg (0.6.1)
+      json_pure (~> 1.7.6)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
+    json_pure (1.7.7)
+    multi_json (1.11.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk
+  copperegg (~> 0.6.1)
+
+BUNDLED WITH
+   1.10.1
