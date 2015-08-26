@@ -1,0 +1,44 @@
+aws:
+  access_key_id: XXXXXXXXXXXXXXX
+  secret_access_key: XXXXXXXXXXXXXXX
+  services:
+   # - "elb"
+    - "rds"
+   # - "ec2"
+   #- "billing"
+  regions:
+    #- "us-east-1"
+    #- "us-west-1"
+    #- "us-west-2"
+    - "eu-west-1"
+    #- "sa-east-1"
+    #- "ap-northeast-1"
+    #- "ap-southeast-1"
+    #- "ap-southeast-2"
+elb:
+  group_name: "aws_elb"
+  group_label: "ELB Metrics"
+  dashboard: "AWS ELB"
+rds:
+  group_name: "aws_rds"
+  group_label: "RDS Metrics"
+  dashboard: "AWS RDS"
+ec2:
+  group_name: "aws_ec2_counts"
+  group_label: "EC2 Counts"
+  dashboard: "AWS EC2"
+billing:
+  group_name: "aws_billing"
+  group_label: "AWS Billing"
+  dashboard: "AWS Billing"
+sqs:
+  group_name: "aws_sqs"
+  group_label: "SQS Metrics"
+  dashboard: "AWS SQS"
+  filter: "substring"
+graphite:
+    host: "graphite.wuaki.tv"
+    port: "2003"
+    path: "MYSQL.aws"
+
+  
