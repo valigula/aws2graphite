@@ -6,7 +6,8 @@ This is a project to help people to undertand how to easily load data from the a
 
 ## Config
 
-See the config file system and script is currently set-up to work only for rds
+See the config file.  Script is currently set-up to work only for rds.
+New rules can be added easily.
 
 ## How to execute 
 
